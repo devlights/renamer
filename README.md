@@ -11,11 +11,11 @@ go get -u github.com/devlights/renamer/cmd/renamer
 ## Run
 
 ```sh
-renamer -p /path/to/directory [-r] [-v] -old Old-Strings -new New-Strings
+renamer -path /path/to/directory [-r] [-v] -old Old-Strings -new New-Strings
 ```
 
 ### Example
 
 ```sh
-renamer -p ~/tmp -r -old ".txt" -new ".bin"
+renamer -path ~/tmp -r -old ".txt" -new ".bin"
 ```
